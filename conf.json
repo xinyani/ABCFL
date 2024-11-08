@@ -1,0 +1,19 @@
+{
+	"model_name" : "resnet1D",
+	"no_models" : 10,
+	"type" : "custom_1D",
+	"global_epochs" : 30,
+	"local_epochs" : 3,
+	"k" : 2,
+	"batch_size" : 512,
+	"lr" : 0.01,
+	"momentum" : 0.0001,
+	"lambda" : 0.5,
+	"dp" : false,
+	"C" : 1,
+	"sigma" : 0.000001,
+
+	"filename": "x_processed.json",
+	"in_channel": 21,
+	"num_class": 2
+}
